@@ -1,0 +1,180 @@
+body{
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+nav {
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+}
+
+article {
+    height: 300px;
+}
+
+.footer {
+    
+    left: 0;
+    bottom: -60px;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.centrar_texto {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.ex1:active {
+    color: red;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+b {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto {
+    text-align: left;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;  
+    
+}
+
+.barra {
+   width: 100%;
+   height: 30px;
+}
+
+
+/*imagem */
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fixar {
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(173,163,208, 0.7);
+    margin: 0px;
+}
+
+.baixar_lista {
+    margin-top: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.foto_principal {
+    padding-top: 0px;
+}
+
+.saudacao {
+    padding-top: 90px;
+    padding-bottom: -10px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+/* para garantir que a imagem ocupa por completo o seu contentor, e se redimensiona ao alterar o tamanho do ecrã */
+
+.grid-33 .container img {
+    width: 100%;
+}
+
+.grid-50 .container img {
+    width: 100%;
+}
+
+
+.baixar_texto {
+    padding-top: 80px;
+    text-align: left;
+}
+
+.baixar_texto1 {
+    padding-top: 72px;
+    text-align: right;
+}
+
+.baixar_tudo {
+    margin-top: 200px;
+}
+
+.baixar_pintura {
+    margin-top: 200px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
